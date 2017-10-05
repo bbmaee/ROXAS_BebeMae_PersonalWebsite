@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #83878c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+input[type=submit]:hover {
+    background-color: #313233;
+}
+
+.container {
+    margin: auto;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+ h3 {
+  font-size: 30px;
+  text-align: center;
+ }   
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="savepage.html" method="get">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="philippines">Philippines</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="singapore"Singapore></option>
+      <option value="southkorea">South Korea</option>
+      <option value="japan">Japan</option>
+    </select>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email" placeholder="Your email..">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" name="Submit" value="Submit">
+
+  </form>
+</div>
+
+
+ <center>
+        <h2> Contact me here in my SNS Accounts</h2>
+        <a href="https://www.facebook.com/bebemae.roxas" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/friskybangtan" class="fa fa-twitter"></a>
+        <a href="https://plus.google.com/u/0/+BangtanIsLifeuuu" class="fa fa-google"></a>
+        <a href="https://www.instagram.com/bbmaeee/" class="fa fa-instagram"></a>
+  </center>
+
+
+      
+</body>
+</html> 
